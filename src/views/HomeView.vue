@@ -18,7 +18,7 @@ onMounted(() => {
 
       <div class="row mt-4">
 
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6"  >
           <!-- <div class="card" style="width: 18rem;">
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -47,3 +47,5 @@ onMounted(() => {
     </div>
   </main>
 </template>
+
+
