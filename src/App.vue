@@ -1,9 +1,7 @@
 <script setup>
-
 import { ref } from "vue";
 
-let num = ref(0)
-
+let num = ref(0);
 </script>
 
 <template>
@@ -11,20 +9,31 @@ let num = ref(0)
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img src="./assets/188987.png" alt="Bootstrap" width="30" height="24">
+        <img src="./assets/188987.png" alt="Bootstrap" width="30" height="24" />
       </router-link>
       <router-link to="/" class="navbar-brand">PokeVue</router-link>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link" aria-current="page" href="#">Home</router-link>
+            <router-link to="/" class="nav-link" aria-current="page" href="#"
+              >Home</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link" href="#">About</router-link>
+            <router-link to="/about" class="nav-link" href="#"
+              >About</router-link
+            >
           </li>
         </ul>
       </div>
@@ -36,9 +45,7 @@ let num = ref(0)
   </div>
 
   <footer class="bg-primary text-light">
-    <div>
-      Design in {{ new Date().getFullYear() }}
-    </div>
+    <div>Design in {{ new Date().getFullYear() }}</div>
   </footer>
 </template>
 
