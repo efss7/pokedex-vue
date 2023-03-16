@@ -9,7 +9,12 @@ let num = ref(0);
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img src="./assets/188987.png" alt="Bootstrap" width="30" height="24" />
+        <img
+          src="./assets/pikachu.png"
+          alt="Bootstrap"
+          width="30"
+          height="24"
+        />
       </router-link>
       <router-link to="/" class="navbar-brand">PokeVue</router-link>
       <button
@@ -50,6 +55,10 @@ let num = ref(0);
 </template>
 
 <style>
+body {
+  height: 100vh;
+  background: #002244;
+}
 footer {
   position: fixed;
   bottom: 0;
